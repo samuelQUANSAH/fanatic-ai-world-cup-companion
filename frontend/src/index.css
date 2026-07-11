@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-bg: #05000a;
+  --color-brand-neon-purple: #bb00ff;
+  --color-brand-neon-green: #39ff14;
+  --color-brand-neon-red: #ff007f;
+  
+  --font-sans: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Outfit', sans-serif;
+}
+
+html, body {
+  background-color: #05000a;
+  color: #ffffff;
+  font-family: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.glass {
+  background: rgba(15, 0, 30, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(187, 0, 255, 0.2);
+}
+
+.text-gradient-neon {
+  background: linear-gradient(135deg, #ffffff 30%, #bb00ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
